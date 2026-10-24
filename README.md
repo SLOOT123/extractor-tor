@@ -26,4 +26,4 @@ Herramienta de recolección profunda de direcciones `.onion`, inyección de wrap
 1. Clona el repositorio:
    ```cmd
    git clone https://github.com/TU_USUARIO/extractor-tor.git
-   cd extractor-tor
+   cd extractor-tor# extractor-tor
