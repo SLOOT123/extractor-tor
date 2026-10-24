@@ -1,0 +1,30 @@
+
+---
+
+## 3. `docs/WINDOWS.md`, `docs/LINUX.md`, `docs/MAC.md`
+
+Crea la carpeta `docs` y adentro pon estos 3 archivos:
+
+### `docs/WINDOWS.md`
+```markdown
+# Guía de Instalación en Windows
+
+## 1. Requisitos
+- Python 3.10+ (Marca "Add python.exe to PATH" durante la instalación).
+- TOR Browser (Instalado en `C:\Users\TuUsuario\Desktop\Tor Browser`).
+
+## 2. Compilador (Opcional pero recomendado)
+Si no tienes MSVC (Visual Studio), puedes instalar MinGW:
+1. Descarga MSYS2 desde `https://www.msys2.org/`
+2. Ejecuta `pacman -S mingw-w64-ucrt-x86_64-gcc`
+3. Agrega `C:\msys64\ucrt64\bin` al PATH de Windows.
+
+## 3. Ejecución
+1. Abre la carpeta del proyecto.
+2. Haz clic derecho en `run.bat` -> **Ejecutar como administrador** (necesario para leer memoria y pagefile).
+3. El script instalará dependencias, detectará TOR y abrirá `http://localhost:8080`.
+
+## 4. Solución de Problemas
+- **"PermissionError" al inyectar:** Cierra TOR Browser manualmente y vuelve a intentar.
+- **La interfaz dice "Ya hay una tarea en ejecución":** Haz clic en el botón rojo "Forzar Desbloqueo".
+- **No detecta TOR:** Escribe manualmente la ruta (ej. `C:\Users\sloty\Desktop\Tor Browser`) y haz clic en "Guardar Ruta".

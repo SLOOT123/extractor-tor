@@ -1,0 +1,4 @@
+requests>=2.31.0
+PySocks>=1.7.1
+wmi>=1.5.1; sys_platform == "win32"
+pyinstaller>=6.0.0

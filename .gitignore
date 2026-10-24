@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos del proyecto (Datos sensibles)
+tor_path.txt
+onions_recolectados.txt
+onions_deep.txt
+live_onions.txt
+worm.log
+metadata.json
+tor_worm_pkg.zip
+
+# Binarios compilados
+worm_core.exe
+tor_wrapper.exe
+worm_core
+tor_wrapper
+
+# Configuraciones de IDE
+.vscode/
+.idea/
